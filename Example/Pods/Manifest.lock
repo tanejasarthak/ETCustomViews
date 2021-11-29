@@ -1,0 +1,16 @@
+PODS:
+  - ETCustomViews (0.1.0)
+
+DEPENDENCIES:
+  - ETCustomViews (from `../`)
+
+EXTERNAL SOURCES:
+  ETCustomViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ETCustomViews: a67375e02f3c3b6c42e4108816421673549a1b64
+
+PODFILE CHECKSUM: cc81854d4e8132ebd8ea498184248b9949c66642
+
+COCOAPODS: 1.11.2
