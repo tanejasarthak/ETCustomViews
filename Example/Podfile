@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ETCustomViews_Tests' do
+  pod 'ETCustomViews', :path => '../'
+  
+  
+end
