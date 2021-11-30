@@ -71,7 +71,7 @@ public class ResizableButton: UIButton {
     
     
 
-    var etButtonState: ETCustomButtonState = .defaultState {
+    public var etButtonState: ETCustomButtonState = .defaultState {
         didSet {
             // Toggle the check/uncheck images
             updateTypeAndState()
@@ -89,7 +89,7 @@ public class ResizableButton: UIButton {
 
     private var heightConstraint : NSLayoutConstraint?
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }

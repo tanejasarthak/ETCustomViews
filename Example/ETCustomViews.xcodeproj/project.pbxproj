@@ -13,7 +13,7 @@
 
 /* Begin PBXFileReference section */
 		0A9A294EC74717536D564657 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		57F2C208ECA4CD143552D838 /* ETCustomViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ETCustomViews.podspec; path = ../ETCustomViews.podspec; sourceTree = "<group>"; };
+		57F2C208ECA4CD143552D838 /* ETCustomViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ETCustomViews.podspec; path = ../ETCustomViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* ETCustomViews_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETCustomViews_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };

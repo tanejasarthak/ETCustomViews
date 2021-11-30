@@ -33,7 +33,7 @@ import UIKit
         }
     }
     
-    var etLabelType: ETCustomLabelType = .body1 {
+    public var etLabelType: ETCustomLabelType = .body1 {
         didSet {
             // Toggle the check/uncheck images
             updateAttributedString()
@@ -48,7 +48,7 @@ import UIKit
         }
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
@@ -214,7 +214,7 @@ import UIKit
         }
     }
 
-    func getTextFont() -> UIFont {
+    public func getTextFont() -> UIFont {
         return UIFont(name: getFontFamilyName(), size: getFontSize()) ?? UIFont.boldSystemFont(ofSize: getFontSize())
     }
     
