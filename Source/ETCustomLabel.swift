@@ -121,7 +121,7 @@ import UIKit
     case para2 = 12
     case heading3_2 = 13
 
-    func getFontSize() -> CGFloat {
+    public func getFontSize() -> CGFloat {
         switch self {
         case .displayHeading:
             return 28.0
@@ -183,7 +183,7 @@ import UIKit
         }
     }
 
-    func lineHeightMultiple() -> CGFloat {
+    public func lineHeightMultiple() -> CGFloat {
         switch self {
         case .displayHeading:
             return 1.0
@@ -218,7 +218,7 @@ import UIKit
         return UIFont(name: getFontFamilyName(), size: getFontSize()) ?? UIFont.boldSystemFont(ofSize: getFontSize())
     }
     
-    func getFontFamilyName() -> String{
+    public func getFontFamilyName() -> String{
         switch self {
         case .displayHeading:
             return ETConstants.FontNames.ProximaBold
