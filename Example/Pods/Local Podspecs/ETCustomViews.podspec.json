@@ -1,6 +1,6 @@
 {
   "name": "ETCustomViews",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "ETCustomViews handles custom UIView, UIButton and UILabel to be used for dark theme.",
   "description": "'ETCustomViews handles custom UIView, UIButton and UILabel to be used for dark theme.'",
   "homepage": "https://github.com/tanejasarthak/ETCustomViews",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tanejasarthak/ETCustomViews.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
