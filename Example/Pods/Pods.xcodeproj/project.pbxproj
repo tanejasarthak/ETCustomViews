@@ -332,7 +332,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		34E9C507FFC2DA3086C313631800B83B /* Release */ = {
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,9 +394,9 @@
 			};
 			name = Release;
 		};
-		83D55DDA3A1A28FC0304658C4B56B00A /* Debug */ = {
+		853DDDE508D930BB654338B2F9812F99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC7BEE6420B427EA27B976354A54D072 /* Pods-ETCustomViews_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8F5690CEFC9B4F264D17AB00B58EB4C4 /* Pods-ETCustomViews_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -410,7 +410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ETCustomViews_Tests/Pods-ETCustomViews_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ETCustomViews_Tests/Pods-ETCustomViews_Tests.modulemap";
@@ -422,10 +422,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8B0FC44A6333D638887B34AB457A9F33 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -458,9 +459,9 @@
 			};
 			name = Debug;
 		};
-		98ADE1E162862496FF3029F0121EF01A /* Release */ = {
+		C4393A8500D20057B24EA8893F78ECF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5690CEFC9B4F264D17AB00B58EB4C4 /* Pods-ETCustomViews_Tests.release.xcconfig */;
+			baseConfigurationReference = EC7BEE6420B427EA27B976354A54D072 /* Pods-ETCustomViews_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -474,7 +475,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ETCustomViews_Tests/Pods-ETCustomViews_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ETCustomViews_Tests/Pods-ETCustomViews_Tests.modulemap";
@@ -486,13 +487,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		A5667BA97B6EA7D74BECE84299AE81B7 /* Debug */ = {
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -545,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -596,8 +596,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5667BA97B6EA7D74BECE84299AE81B7 /* Debug */,
-				34E9C507FFC2DA3086C313631800B83B /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -614,8 +614,8 @@
 		E809E59CC5B0E253305DA3C62C782AC7 /* Build configuration list for PBXNativeTarget "Pods-ETCustomViews_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83D55DDA3A1A28FC0304658C4B56B00A /* Debug */,
-				98ADE1E162862496FF3029F0121EF01A /* Release */,
+				C4393A8500D20057B24EA8893F78ECF2 /* Debug */,
+				853DDDE508D930BB654338B2F9812F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
